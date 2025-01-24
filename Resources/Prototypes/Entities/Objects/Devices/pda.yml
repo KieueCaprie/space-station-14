@@ -120,6 +120,9 @@
     proto: robot
   - type: Speech
     speechVerb: Robotic
+  - type: ToggleableGhostRole # Literally only for the wipe verb and nothing else.
+    wipeVerbText: positronic-brain-wipe-device-verb-text
+    wipeVerbPopup: positronic-brain-wiped-device
 
 - type: entity
   parent: BasePDA
